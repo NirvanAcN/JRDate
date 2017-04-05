@@ -1,5 +1,4 @@
 # JRDate
-```swift
     -   JRModel         驱动model 获取年月日时分秒……
         -   JREra                   纪元-公元前(B.C.E.)/公元(C.E.)
 		-   JRYear                  年份
@@ -22,4 +21,3 @@
 	-   JRString(formatter: String = JRDateModel.JRDateNormalFormatter) date转自定义格式string 默认格式yyyy-MM-dd HH:mm:ss
 	-   JRDate          将yyyy-MM-dd HH:mm:ss格式string转为date 格式错误返回当前时间
 	-   JRDate(by format: String = default_date_format) 将string转为自定义格式的date 格式不匹配返回nil
-```
