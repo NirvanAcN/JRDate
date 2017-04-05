@@ -1,0 +1,6 @@
+framework module Pods_JRDate {
+  umbrella header "Pods-JRDate-umbrella.h"
+
+  export *
+  module * { export * }
+}
