@@ -15,7 +15,7 @@ open class JRDateModel: NSObject {
     }
     fileprivate typealias nD = nAllDateFormatters
     
-    private static var nDate = Date()
+    public static var nDate = Date()
     
     private override init() {}
     public convenience init(by date: Date) {
